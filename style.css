@@ -1,0 +1,497 @@
+*{
+    padding:0%;
+    margin:0%;
+    font-family: "Lexend Deca", serif;
+
+}
+
+.header{
+    height: 70px;
+    padding:0 40px;
+    display: flex;
+    flex:wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+.header-ul{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    list-style: none;
+}
+
+.header-li{
+    font-weight: 300;
+    font-size: 12px;
+    cursor: pointer;
+}
+#search{
+    width: 600px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius:25px;
+    background-image: url('search-interface-symbol.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left center; 
+    background-position-x: 10px;   
+}
+
+#login{
+    width:70px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#signup{
+    width:70px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border:1px solid black;    
+}
+
+#globe{
+    width: 40px;
+    height:40px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+h1{
+    font-family: "Lexend Deca", serif;
+
+}
+
+.course{
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+span:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.course-list{
+    background-color: #F7F9FA;
+    height:700px;
+    
+}
+
+.courses{
+    display: flex;
+    flex: wrap;
+    column-gap: 20px;
+    
+}
+
+.course1{
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    border:1px solid black;
+    border-radius: 40px;
+    background-color: black;
+    color:white;
+    cursor: pointer;   
+}
+
+
+.course2{
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    border:1px solid black;
+    border-radius: 40px;
+    background-color: lightgrey;
+    color:black;
+    cursor: pointer;
+}
+.course3{
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    border:1px solid black;
+    border-radius: 40px;
+    background-color: lightgray;
+    cursor:pointer;
+    
+    
+}
+
+.course4{
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    border:1px solid black;
+    border-radius: 40px;
+    background-color: lightgray;
+    cursor:pointer;
+    
+}
+.course5{
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border:1px solid black;
+    border-radius: 40px;
+    background-color: lightgray;
+    cursor:pointer;
+    
+}
+.course6{
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: 60px;
+    border:1px solid black;
+    border-radius: 40px;
+    background-color: lightgray;
+    cursor:pointer;
+    
+}
+.course7{
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border:1px solid black;
+    border-radius: 40px;
+    background-color: lightgray;
+    cursor:pointer;
+
+}
+
+.course-card{
+    display: flex;
+    column-gap: 20px;  
+    
+}
+
+.card1{
+    height: 450px;
+    width: 300px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.card2{
+    height: 450px;
+    width: 300px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.card3{
+    height: 450px;
+    width: 300px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+.card4{
+    height: 450px;
+    width: 300px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+#course-btn{
+    border: 1px solid black;
+    width: 280px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#course-btn:hover{
+    background-color: lightgray;
+}
+
+.sponser-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* sponser completed */
+
+.recommeded{
+    display: flex;
+    column-gap: 20px; 
+}
+
+.motive{
+    background-color: #F7F9FA;
+    height:950px;
+}
+
+.goals-section1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.goals{
+   
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.goal-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid purple;
+    border-left:10px solid purple;
+    height: 120px;
+    width:500px;
+    border-radius:5px;
+    padding:30px 30px 30px 10px;
+
+}
+
+.goal-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid lightgray;
+    
+    height: 120px;
+    width:510px;
+    border-radius:5px;
+    padding:30px 30px 30px 10px;
+
+}
+
+.goal-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid lightgray;
+    
+    height: 120px;
+    width:510px;
+    border-radius:5px;
+    padding:30px 30px 30px 10px;
+
+}
+.plan-cards{
+    display: flex;
+    column-gap: 20px;
+}
+
+.plan-card1{    
+    display: flex;
+    flex-direction: column;
+    border:1px solid lightgray;
+    border-top: 10px solid purple;
+    border-radius: 8px;
+    width:450px;
+    
+}
+
+.plan-card1-section1{
+    background-color: #F7F9FA;
+    padding: 25px;
+}
+
+.plan-card1-section2{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#start-btn{
+    background-color: black;
+    color:white;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#plain-ul{
+    font-weight: 100;
+}
+
+#plain-li{
+    list-style: none;
+    line-height: 20px;
+}
+.plan-card2{    
+    display: flex;
+    flex-direction: column;
+    border:1px solid lightgray;
+    border-top: 10px solid darkblue ;
+    border-radius: 8px;
+    width:450px;
+    
+}
+
+.feedback{
+    background-color: #F7F9FA;
+
+
+}
+
+.feedback-card{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.feedback-card1{
+    border: 1px solid lightgrey;
+    width:250px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.reports{
+    display: flex;
+
+}
+
+.report-section1{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    
+}
+
+#report-btn1{
+    width: 45%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius:5px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.report-section2{
+    width: 75%;
+}
+
+.trending{
+    background-color: #F7F9FA;
+
+
+
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.trending-card{
+    display: flex;
+    column-gap: 30px;
+}
+
+.trending-card1{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.trending-card2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about{
+    display: flex;
+    column-gap: 80px;
+    height: 600px;
+
+
+}
+
+.about-section1{
+    width: 50%;
+
+}
+
+.about-section2{
+    width: 50%;
+    background-image: url('https://cms-images.udemycdn.com/content/c4gpjcmcsk/png/UB_Case_Studies_Booz_Allen_image.png?position=c&quality=80&x.app=portals');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+}
+
+#about-btn{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 40px;
+    font-size: large;
+    border:none;
+    border-radius: 5px;
+}
+.footer1{
+    display:flex; 
+    align-items:center;
+    justify-content:space-between; 
+    padding-left: 50px; 
+    padding-right: 50px;
+    border-top:1px solid white; 
+    border-bottom:1px solid white;
+    color:white;
+    height: 90px;
+}
+#footer1-1{
+
+    font-size: large;
+    color: white;
+   
+}
+
+.footer2{
+    padding:50px;
+    color: white;
+}
